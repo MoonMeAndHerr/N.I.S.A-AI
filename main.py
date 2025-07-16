@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 class NISA:
     def __init__(self):
         self.name = "NISA"
-        self.full_name = "Semi-Autonomous Response for Adaptive Helper"
+        self.full_name = "Neural Intelligence System Assistant"
         self.cnn_model = None
         self.vectorizer = None
         self.knowledge_base = {}
