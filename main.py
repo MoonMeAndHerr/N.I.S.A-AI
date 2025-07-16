@@ -13,9 +13,9 @@ from datetime import datetime
 # Suppress warnings for cleaner output
 warnings.filterwarnings('ignore')
 
-class SARAH:
+class NISA:
     def __init__(self):
-        self.name = "SARAH"
+        self.name = "NISA"
         self.full_name = "Semi-Autonomous Response for Adaptive Helper"
         self.cnn_model = None
         self.vectorizer = None
@@ -31,8 +31,8 @@ class SARAH:
         # Enhanced responses
         self.responses = {
             'greeting': [
-                "Hello! I'm SARAH, your adaptive helper.",
-                "Greetings! SARAH systems online.",
+                "Hello! I'm NISA, your adaptive helper.",
+                "Greetings! NISA systems online.",
                 "Hi there! How can I assist you today?"
             ],
             'generic': [
@@ -54,7 +54,7 @@ class SARAH:
             ],
             'farewell': [
                 "Goodbye! Shutting down systems.",
-                "SARAH systems powering down.",
+                "NISA systems powering down.",
                 "Until next time!"
             ]
         }
@@ -279,5 +279,5 @@ class SARAH:
             print(f"\n{self.name}: {response}\n")
 
 if __name__ == "__main__":
-    ai = SARAH()
+    ai = NISA()
     ai.run()
