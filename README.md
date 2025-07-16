@@ -1,1 +1,1 @@
-NISA AI stands for Natural Intelleignce Smart Assistant
+N.I.S.A. AI stands for Neural Intelleignce Smart Assistant
