@@ -1,1 +1,1 @@
-S.A.R.A.H AI stands for Semi-Autonomous Response for Adaptive Helper
+NISA AI stands for Natural Intelleignce Smart Assistant
